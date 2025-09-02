@@ -1,0 +1,36 @@
+# JUCE / IDE build output
+Builds/
+*/build/
+*.xcworkspace
+*.xcodeproj
+*.vcxproj
+*.sln
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Binaries & bundles
+*.app
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.vst3
+*.component
+*.dSYM
+*.ipa
+*.zip
+
+# IDE/user files
+.DS_Store
+*.user
+*.userprefs
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# JUCE specific cache/temp
+JuceLibraryCode/

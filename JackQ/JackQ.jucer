@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Sv4SGE" name="JackQ" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="JackDSP" companyEmail="jack12reilly@gmail.com">
+  <MAINGROUP id="SFGVZE" name="JackQ">
+    <FILE id="V9aqCo" name="PresetManager.cpp" compile="1" resource="0"
+          file="Source/PresetManager.cpp"/>
+    <FILE id="BuGQGU" name="PresetManager.h" compile="0" resource="0" file="Source/PresetManager.h"/>
+    <FILE id="PNn5mj" name="PresetPanel.h" compile="0" resource="0" file="Source/PresetPanel.h"/>
+    <GROUP id="{248BC795-C91E-C276-A2CF-BFBBADB0E9AF}" name="Source">
+      <FILE id="X9nInG" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="AGK6mM" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ZqEgPv" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="bMtEwF" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="Eiv1gO" name="Colors.h" compile="0" resource="0" file="Source/Colors.h"/>
+    <FILE id="bhabWa" name="filterComboBox.cpp" compile="1" resource="0"
+          file="Source/filterComboBox.cpp"/>
+    <FILE id="wUzzqa" name="filterComboBox.h" compile="0" resource="0"
+          file="Source/filterComboBox.h"/>
+    <FILE id="ZKwc6p" name="graphics.cpp" compile="1" resource="0" file="Source/graphics.cpp"/>
+    <FILE id="LG9qLR" name="graphics.h" compile="0" resource="0" file="Source/graphics.h"/>
+    <FILE id="KrnJbm" name="jackFilters.cpp" compile="1" resource="0" file="Source/jackFilters.cpp"/>
+    <FILE id="RtrXWw" name="jackFilters.h" compile="0" resource="0" file="Source/jackFilters.h"/>
+    <FILE id="RlFoy4" name="selfiefour.png" compile="0" resource="1" file="../../selfiefour.png"/>
+    <FILE id="wE1K5o" name="selfiethree.png" compile="0" resource="1" file="../../selfiethree.png"/>
+    <FILE id="lIlx8I" name="selfieone.png" compile="0" resource="1" file="../../selfieone.png"/>
+    <FILE id="rjohf3" name="selfietwo.png" compile="0" resource="1" file="../../selfietwo.png"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JackQ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JackQ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
